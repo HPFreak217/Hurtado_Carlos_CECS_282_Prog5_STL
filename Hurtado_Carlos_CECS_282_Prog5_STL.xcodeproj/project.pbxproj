@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		071803281DDCDB1B00B0E06F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071803271DDCDB1B00B0E06F /* main.cpp */; };
+		071803301DDCDB3C00B0E06F /* BigInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0718032E1DDCDB3C00B0E06F /* BigInt.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		071803241DDCDB1B00B0E06F /* Hurtado_Carlos_CECS_282_Prog5_STL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hurtado_Carlos_CECS_282_Prog5_STL; sourceTree = BUILT_PRODUCTS_DIR; };
 		071803271DDCDB1B00B0E06F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0718032E1DDCDB3C00B0E06F /* BigInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigInt.cpp; sourceTree = "<group>"; };
+		0718032F1DDCDB3C00B0E06F /* BigInt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigInt.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				071803271DDCDB1B00B0E06F /* main.cpp */,
+				0718032E1DDCDB3C00B0E06F /* BigInt.cpp */,
+				0718032F1DDCDB3C00B0E06F /* BigInt.hpp */,
 			);
 			path = Hurtado_Carlos_CECS_282_Prog5_STL;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071803301DDCDB3C00B0E06F /* BigInt.cpp in Sources */,
 				071803281DDCDB1B00B0E06F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
